@@ -31,8 +31,6 @@ requirements:
     - {{ cdt('xorg-x11-proto-devel') }}
     - libxcb
     - xcb-proto
-    - xorg-xcb-proto
-    - xorg-libxcb
     - pthread-stubs
 
 test:
