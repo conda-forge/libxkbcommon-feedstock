@@ -31,6 +31,7 @@ requirements:
     - xorg-libxau
     - {{ cdt('xorg-x11-proto-devel') }}
     - libxcb
+    - xorg-xproto
     - xcb-proto
     - pthread-stubs
 
