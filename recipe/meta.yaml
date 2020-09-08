@@ -34,6 +34,7 @@ requirements:
     - xorg-xproto
     - xcb-proto
     - pthread-stubs
+    - libxml2
 
 test:
   commands:
