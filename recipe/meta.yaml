@@ -1,5 +1,5 @@
 {% set name = "libxkbcommon" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/xkbcommon/{{ name }}/archive/xkbcommon-{{ version }}.tar.gz
-  sha256: c4fd61adc8296103bc1b6e2f89939b3437f292fc43c55b7ef1a25b55d0c0bd5a
+  sha256: 270e2ad4ce5699f633e49042114cb68a5697fa1ed45b65c1d96a833cfac20954
 
 build:
   number: 0
