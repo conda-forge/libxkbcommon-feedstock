@@ -5,9 +5,13 @@ Home: https://github.com/xkbcommon/libxkbcommon
 
 Package license: MIT/X11 Derivative
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libxkbcommon-feedstock/blob/master/LICENSE.txt)
 
 Summary: keymap handling library for toolkits and window systems
+
+Development: https://github.com/xkbcommon/libxkbcommon
+
+Documentation: https://xkbcommon.org/
 
 libxkbcommon is a keyboard keymap compiler and support library which
 processes a reduced subset of keymaps as defined by the XKB (X Keyboard
