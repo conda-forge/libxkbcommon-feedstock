@@ -1,11 +1,11 @@
-About libxkbcommon
-==================
+About libxkbcommon-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libxkbcommon-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/xkbcommon/libxkbcommon
 
 Package license: MIT/X11 Derivative
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libxkbcommon-feedstock/blob/main/LICENSE.txt)
 
 Summary: keymap handling library for toolkits and window systems
 
@@ -22,14 +22,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://app.travis-ci.com/conda-forge/libxkbcommon-feedstock">
-        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/libxkbcommon-feedstock/main.svg?label=Linux">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
