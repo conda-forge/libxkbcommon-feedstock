@@ -10,7 +10,7 @@ source:
   sha256: 053e6a6a2c3179eba20c3ada827fb8833a6663b7ffd278fdb8530c3cbf924780
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win or osx]
   missing_dso_whitelist:
     - /lib/libc.so.6
@@ -34,6 +34,9 @@ requirements:
     - xcb-proto
     - pthread-stubs
     - libxml2
+  run:
+    # https://github.com/conda-forge/libxkbcommon-feedstock/issues/19
+    - xkeyboard-config
 
 test:
   commands:
