@@ -35,7 +35,6 @@ requirements:
     - pthread-stubs
     - libxml2
   run:
-    # https://github.com/conda-forge/libxkbcommon-feedstock/issues/19
     - xkeyboard-config
 
 test:
