@@ -10,7 +10,7 @@ source:
   sha256: 20d5e40dabd927f7a7f4342bebb1e8c7a59241283c978b800ae3bf60394eabc4
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win or osx]
   missing_dso_whitelist:
     - /lib/libc.so.6
@@ -20,6 +20,7 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - meson
     - ninja
