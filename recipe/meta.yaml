@@ -1,5 +1,5 @@
 {% set name = "libxkbcommon" %}
-{% set version = "1.7.0" %}
+{% set version = "1.12.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/xkbcommon/{{ name }}/archive/xkbcommon-{{ version }}.tar.gz
-  sha256: 20d5e40dabd927f7a7f4342bebb1e8c7a59241283c978b800ae3bf60394eabc4
+  sha256: b08bbd1ac6faef2b80774fbe22a0dda5563ef77480ad86677b51798bf0afef6d
 
 build:
   number: 0
@@ -20,6 +20,7 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - meson
     - ninja
@@ -33,7 +34,7 @@ requirements:
     - xorg-xproto
     - xcb-proto
     - pthread-stubs
-    - libxml2
+    - libxml2-devel
   run:
     - xkeyboard-config
 
