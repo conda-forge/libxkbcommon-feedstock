@@ -35,6 +35,14 @@ requirements:
     - xcb-proto
     - pthread-stubs
     - libxml2-devel
+    # Needed at build time since 1.13.2: meson probes xkeyboard-config's
+    # pkg-config to derive the default XKB config root and the (un)versioned
+    # extensions paths. Without it those DFLT_XKB_CONFIG_*_EXTENSIONS_PATH
+    # macros are left undefined, and tools/info.c references them unguarded
+    # (upstream uses #ifdef everywhere else), failing the build. Having it in
+    # host also bakes the correct $PREFIX/share/X11/xkb config root instead of
+    # the /usr legacy fallback.
+    - xkeyboard-config
   run:
     - xkeyboard-config
 
