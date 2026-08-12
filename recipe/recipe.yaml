@@ -48,7 +48,7 @@ tests:
       - xkbcli --help
 
 about:
-  license: MIT AND MIT-open-group AND HPND AND HPND-sell-variant AND ISC AND LicenseRef-digital-equipment-corporation
+  license: MIT AND MIT-open-group AND HPND AND HPND-sell-variant AND ISC
   license_file:
     - LICENSE
     # TODO: Remove ISC_LICENSE.txt and this entry once
