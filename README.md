@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libxkbcommon-fe
 
 Home: https://github.com/xkbcommon/libxkbcommon
 
-Package license: MIT AND MIT-open-group AND HPND AND HPND-sell-variant AND ISC AND LicenseRef-digital-equipment-corporation
+Package license: MIT AND MIT-open-group AND HPND AND HPND-sell-variant AND ISC
 
 Summary: keymap handling library for toolkits and window systems
 
